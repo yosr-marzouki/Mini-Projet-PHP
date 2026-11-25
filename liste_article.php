@@ -23,7 +23,7 @@ ob_start();
 <div class="text-center mb-5">
     <h1 class="fw-bold">🍰 Nos Desserts</h1>
     <p class="text-muted fs-5">Découvrez notre sélection de délicieux desserts !</p>
-    <a class="btn btn-info text-white rounded-pill px-4" href="form_ajout_article.php">
+    <a class="btn btn-info text-white rounded-pill px-4" href="form_ajout.php">
         ➕ Ajouter un dessert
     </a>
 </div>
@@ -41,7 +41,7 @@ ob_start();
             $desc  = htmlspecialchars($ligne['description']);
             $prix  = htmlspecialchars($ligne['prix']);
             $cat   = htmlspecialchars($ligne['id_categories']);
-            $id    = (int)$ligne['id_article'];
+            $id    = (int)$ligne['id_articles'];
 
             echo '
         <div class="col-md-6 col-lg-4">
