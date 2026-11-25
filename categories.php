@@ -29,7 +29,7 @@ $categories = $stmt->fetchAll(PDO::FETCH_ASSOC);
                         <?php echo htmlspecialchars($categorie['nom_categories']); ?>
                     </h5>
 
-                    <a href="articles.php?id_categories=<?php echo $categorie['id_categories']; ?>"
+                    <a href="parcat.php?id_categories=<?php echo (int)$categorie['id_categories']; ?>"
                        class="btn btn-info text-white mt-3">
                         Voir les articles
                     </a>
