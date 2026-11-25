@@ -41,7 +41,7 @@ ob_start();
             $desc  = htmlspecialchars($ligne['description']);
             $prix  = htmlspecialchars($ligne['prix']);
             $cat   = htmlspecialchars($ligne['id_categories']);
-            $id    = (int)$ligne['id_article'];
+            $id    = (int)$ligne['id_articles'];
 
             echo '
         <div class="col-md-6 col-lg-4">
@@ -64,9 +64,9 @@ ob_start();
 
                     <div class="mt-auto d-flex gap-2">
                         <a class="btn btn-outline-primary btn-sm flex-fill rounded-pill"
-                           href="form_modif_article.php?id_article=' . $id . '">✏️ Modifier</a>
+                           href="form_modif.php?id_articles=' . $id . '">✏️ Modifier</a>
                         <a class="btn btn-outline-danger btn-sm flex-fill rounded-pill"
-                           href="supp_article.php?id_article=' . $id . '"
+                           href="supp_articles.php?id_articles=' . $id . '"
                            onclick="return confirm(\'Supprimer ce dessert ?\');">🗑️ Supprimer</a>
                     </div>
                 </div>

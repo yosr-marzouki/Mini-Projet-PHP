@@ -1,4 +1,3 @@
-
 <?php
 require 'connexion.php';
 
@@ -46,7 +45,7 @@ ob_start();
             $desc  = htmlspecialchars($ligne['description']);
             $prix  = htmlspecialchars($ligne['prix']);
             $cat   = htmlspecialchars($ligne['id_categories']);
-            $id    = (int)$ligne['id_article'];
+            $id    = (int)$ligne['id_articles'];
 
             echo '
             <div class="col-md-6 col-lg-4">
@@ -95,9 +94,7 @@ ob_start();
                     Aucun dessert pour le moment.
                 </div>
             </div>';
-
         }
-
     } catch (Exception $e) {
 
         echo '
@@ -106,7 +103,6 @@ ob_start();
                 ERREUR : ' . htmlspecialchars($e->getMessage()) . '
             </div>
         </div>';
-
     }
     ?>
 
