@@ -95,27 +95,7 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] != 'admin') {
 
         </div>
 
-        <!-- Gestion des devis -->
-        <div class="col-md-6 col-lg-4">
-
-            <div class="card shadow h-100 text-center p-4">
-
-                <h1>📋</h1>
-
-                <h5 class="fw-bold">Gestion des devis</h5>
-
-                <p class="text-muted">
-                    Consulter et gérer les demandes de devis des clients.
-                </p>
-
-                <a href="devis.php"
-                   class="btn btn-info text-white mt-auto">
-                    Gérer les devis
-                </a>
-
-            </div>
-
-        </div>
+        
 
     </div>
 
