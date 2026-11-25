@@ -32,7 +32,7 @@ if (!isset($_SESSION['role']) || $_SESSION['role'] != 'admin') {
             🍰 Ma Pâtisserie - Administration
         </a>
 
-        <a href="../logout.php" class="btn btn-danger btn-sm">
+        <a href="logout.php" class="btn btn-danger btn-sm">
             Déconnexion
         </a>
 
