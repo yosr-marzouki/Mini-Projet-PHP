@@ -31,7 +31,7 @@ if (isset($_POST['submit'])) {
             $stmt = $pdo->prepare($req);
             $stmt->execute([$username, $hash]);
 
-            header("Location: connexion.php");
+header("Location: login.php");
             exit;
         }
     }
@@ -89,7 +89,7 @@ href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/morph/bootstrap.min.css
 
             <p class="text-center mt-3">
                 Vous avez déjà un compte ?
-                <a href="connexion.php" class="text-info">Se connecter</a>
+                <a href="login.php" class="text-info">Se connecter</a>
             </p>
 
         </div>
