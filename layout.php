@@ -12,7 +12,9 @@ if (!isset($content)) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ma Pâtisserie</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/morph/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/morph/bootstrap.min.css">
+</head>
 </head>
 
 <body class="bg-light">
@@ -28,11 +30,13 @@ if (!isset($content)) {
 
         <div class="collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="accueil.php">Accueil</a></li>
-                <li class="nav-item"><a class="nav-link" href="articles.php">Articles</a></li>
+                <li class="nav-item"><a class="nav-link" href="article.php">Articles</a></li>
                 <li class="nav-item"><a class="nav-link" href="categories.php">Catégories</a></li>
                 <li class="nav-item"><a class="nav-link" href="favoris.php">Favoris</a></li>
-                <li class="nav-item"><a class="nav-link" href="connexion.php">Connexion</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.php">login</a></li>
+                <li class="nav-item">
+    <a class="nav-link" href="inscription.php">Inscription</a>
+</li>
             </ul>
         </div>
     </div>
