@@ -48,8 +48,7 @@ ob_start();
             <div class="card dessert-card h-100 border-0 shadow-sm rounded-4 overflow-hidden">
 
                 <div class="position-relative">
-                    <img src="' . $image . '" class="card-img-top dessert-img" alt="' . $nom . '"
-     onerror="this.src=\'https://placehold.co/600x400?text=Dessert\'">
+                    
      <img src="' . htmlspecialchars($image) . '"
      class="card-img-top dessert-img"
      alt="' . $nom . '"
