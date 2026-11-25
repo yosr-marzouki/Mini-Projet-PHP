@@ -31,7 +31,7 @@ ob_start();
 <div class="row g-4">
     <?php
     try {
-        $pdostat = $pdo->query("SELECT * FROM article");
+        $pdostat = $pdo->query("SELECT * FROM articles");
         $nb = 0;
 
         foreach ($pdostat as $ligne) {
