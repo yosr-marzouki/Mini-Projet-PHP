@@ -50,6 +50,10 @@ ob_start();
                 <div class="position-relative">
                     <img src="' . $image . '" class="card-img-top dessert-img" alt="' . $nom . '"
      onerror="this.src=\'https://placehold.co/600x400?text=Dessert\'">
+     <img src="' . htmlspecialchars($image) . '"
+     class="card-img-top dessert-img"
+     alt="' . $nom . '"
+     onerror="this.src=\'https://placehold.co/600x400?text=Dessert\'">
                     <span class="badge bg-danger position-absolute top-0 end-0 m-3 fs-6">' . $prix . ' DT</span>
                 </div>
 
