@@ -32,7 +32,6 @@ href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.8/dist/morph/bootstrap.min.css
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item"><a class="nav-link" href="article.php">Articles</a></li>
                 <li class="nav-item"><a class="nav-link" href="categories.php">Catégories</a></li>
-                <li class="nav-item"><a class="nav-link" href="favoris.php">Favoris</a></li>
                 <li class="nav-item"><a class="nav-link" href="login.php">login</a></li>
                 <li class="nav-item">
     <a class="nav-link" href="inscription.php">Inscription</a>
